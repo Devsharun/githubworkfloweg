@@ -28,7 +28,7 @@ jobs:
     - name: Build & push Docker image
       uses: sharunvdev/docker-build-push@v5
       with:
-        image: javatechie/springboot-images-new
+        image: sharunvdev/githubaction
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
